@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <link rel="icon" href="images/logopic.png">
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- JS LINK -->
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- start of nav section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg  fixed-top">
+            <div class="container ">
+                <a class="navbar-brand" href="#">
+                    <!-- <img src="images/logo1.jpg" class="img-fluid" alt=""
+                        style="width: 45px; height: 45px; border-radius: 50%; border: 2px solid #c17782;"> -->
+                    <h4>nifra</h4>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <!-- <i class="fas fa-stream navbar-toggler-icon"></i> -->
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="main-btn" href="#contact">Hire me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end of nav section -->
+
+    <!-- start of bannenr section -->
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center text-md-start">
+                    <h6>WELCOME TO MY WORLD</h6>
+                    <h1>I'm Noorunisha afrin<br><span>web Developer.</span><br>based in india.</h1>
+                    <div class="mt-4"></div> <!--mt-4 ---- means margin top -->
+                    <a class="main-btn" href="">Download CV</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0" style="position: relative;">
+                    <img src="images/headbanner.jpg" alt="about-us" class="img-fluid rounded-5" style="border: 5px solid var(--primary-color);">
+                    <div class="frontbox1" >"About me"</div>
+                </div>
+                <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+                    <div class="my-3 my-lg-0">
+                        <span class="subtitle">My About Details</span>
+                        <h2>About Me</h2>
+                        <p>Hello! I’m Noorunisha Afrin, currently in my third year of a bachelor’s degree at Madras University of
+                            Distance Education. My academic path has sparked a profound interest in technology and coding, it leading me
+                            to independently explore the world of programming. I am particularly passionate about developing a websites anad mobile application, which I began
+                            learning through the help of aspirasys, self-study and online courses. This initiative has enabled me to develop several projects.</p>
+                    </div>
+                    <div class="pt-4">
+                        <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-Skill-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill"
+                                    aria-selected="true">Main skill</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-Award-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-Award" type="button" role="tab" aria-controls="pills-Award"
+                                    aria-selected="false">Awards</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-experiance-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-experiance" type="button" role="tab"
+                                    aria-controls="pills-experiance" aria-selected="false">Experiance</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-education" type="button" role="tab"
+                                    aria-controls="pills-education" aria-selected="false">Education</button>
+                            </li>
+
+
+
+                        </ul>
+
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-skill" role="tabpanel"
+                                aria-labelledby="pills-skill-tab" tabindex="0">
+                                <div class="single-progress">
+                                    <h6>HTML/CSS</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 95%"></div>
+                                    </div>
+                                    <span class="label">95%</span>
+
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>Team leading</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 85%"></div>
+                                    </div>
+                                    <span class="label ">85%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>Python</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 45%"></div>
+                                    </div>
+                                    <span class="label">45%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>Learning new skills</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 80%"></div>
+                                    </div>
+                                    <span class="label">80%</span>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-Award" role="tabpanel"
+                                aria-labelledby="pills-Award-tab" tabindex="0">
+                                <ul class="text-start ps-0 list-unstyled">
+                                    <li><a href="#">Best team
+                                            <span>- by Aspirasys</span></a> 2023-2024
+                                    </li>
+                                    <li><a href="#">Dedicated student award
+                                            <span>- by Aspirasys</span></a> 2023-2024
+                                    </li>
+                                    <li><a href="#">css Designing
+                                            <span>- by Aspirasys</span></a> 2023- 2024
+                                    </li>
+                                    <li><a href="#">Awwwards.com
+                                            <span>- Winner</span></a> 2019 2020
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- <div class="tab-pane fade" id="pills-experiance" role="tabpanel"
+                                aria-labelledby="pills-experiance-tab" tabindex="0">
+                                <ul class="text-start ps-0">
+                                    <li><a href="#">Sr. Front-end
+                                            Engineer<span>
+                                                Google</span></a> 2018 Current
+                                    </li>
+                                    <li><a href="#">Front-end
+                                            Engineer<span>
+                                                Microsoft</span></a> 2017 - 2018
+                                    </li>
+                                    <li><a href="#">Software
+                                            Engineer<span> Alibaba
+                                            </span></a> 2013- 2014</li>
+                                    <li><a href="#">Software
+                                            Engineer<span> Alibaba
+                                            </span></a> 2013- 2014</li>
+                                </ul>
+
+                            </div> -->
+
+                            <div class="tab-pane fade" id="pills-education" role="tabpanel"
+                                aria-labelledby="pills-education-tab" tabindex="0">
+                                <ul class="text-start ps-0 list-unstyled">
+                                    <li><a href="#">SSLC<span>
+                                               Hasnath-e-jaria girls higher secondary school
+                                                -Ambur</span></a> 2019
+                                    </li>
+                                    <li><a href="#">HSC<span>Hasnath-e-jaria girls higher secondary school
+                                                -Ambur</span></a> 2021
+                                    </li>
+                                    <li><a href="#">UG<span> University of madras</span></a> 2024
+                                    </li>
+                                    <!-- <li><a href="#">Graphic
+                                            Designer<span> ABC Institute,
+                                                Los Angeles, CA</span></a> 2007
+                                    </li> -->
+                                </ul>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- service section -->
+    <section id="services" class="services-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">
+                        what i can do for you
+                    </span>
+                    <h2>My awesome service</h2>
+                    <p>there are many variations of passages of lorem ipsun available,<br class="d-none
+                        d-md-block">
+                        but the majority have suffered alteration.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images/service-1.svg" alt="" class="img-fluid mb-4">
+                            <h3>Business Strategy</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. voluptatum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images/service-2.svg" alt="" class="img-fluid mb-4">
+                            <h3>web development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. voluptatum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images/service-4.svg" alt="" class="img-fluid mb-4">
+                            <h3>Marketting & Reporting</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt saepe fugit voluptatum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images/service-3.svg" alt="" class="img-fluid mb-4">
+                            <h3>Mobile app development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt saepe fugit voluptatum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images/service-3.svg" alt="" class="img-fluid mb-4">
+                            <h3>Mobile app development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt saepe fugit voluptatum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="images/service-3.svg" alt="" class="img-fluid mb-4">
+                            <h3>Mobile app development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt saepe fugit voluptatum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Portfolio section -->
+    <section id="portfolio" class="portfolio_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">
+                        my complete project
+                    </span>
+                    <h2>My latest project</h2>
+                    <p>There are many variation of passages of Lorem ipsum dolor sit,<br class="d-none d-md-block">
+                        but the majority have suffered alteration</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url(images/nooni.png) ;"></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url(images/arsha.png) ;"></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url(images/jio\ cinema.png) ;"></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url(images/fidalgo.png) ;"></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url(images/carsten.png) ;"></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url(images/building.png) ;"></span>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact section  -->
+    <section id="contact" class="contact_wrapper">
+
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                    <span class="subtitle">My complete project </span>
+                    <h2>Hire me</h2>
+                    <span class="subtitle">**Connect With Me:**</span>
+                    <p>I am keen on connecting with professionals and peers who share my passion for technology and coding. Feel free to reach out through my email or connect with me on LinkedIn for collaboration, freelance opportunities, or just a stimulating conversation about technology.</p>
+
+                    <div class="row call_details mb-4">
+                        <label class="col-sm-3 col-lg-4 text-white">Call us directly :</label>
+
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="">+91 88707 70624</a>
+                        </div>
+
+                        <label for="" class="label col-sm-3 col-lg-4 text-white">Contact Email :</label>
+
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="#">noorunishaafrin@gmail.com</a>
+                        </div>
+                    </div>
+                    <form action="">
+                        <div class="mb-4">
+                        <label for="exampleFormControlInput1 " class="form-label text-white">Name</label>
+                            <input type="text" class="form-control  " placeholder="Your Name..."
+                                autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                        <label for="exampleFormControlInput1 " class="form-label text-white">Number</label>
+                            <input type="text" class="form-control text-white" placeholder="Your Phone..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                        <label for="exampleFormControlInput1 " class="form-label text-white">E-mail</label>
+                            <input type="email" class="form-control" placeholder="Your Email..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                        <label for="exampleFormControlTextarea1" class="form-label text-white">Message</label>
+                            <textarea name="" id="" cols="40" rows="4" class="form-control" id="message"
+                                placeholder="Write a message..." autocomplete="off">
+
+
+                            </textarea>
+                        </div>
+                        <button type="submit" class="main-btn">Submit</button>
+                    </form>
+                   
+                </div>
+                <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0" style="position: relative;">
+                    <img src="images/headbanner.jpg" alt="" class="img-fluid" style=" border-radius: 50px; border: 5px solid var(--primary-color);">
+                    <div  class="frontbox" > <span>"</span>Connect with me for more information<span>"</span>  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- footer section -->
+    <section class="footer  " style="background-color:rgb(2 2 2); border-top: 2px solid var(--primary-color);">
+    <footer class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md " style="color: white;">
+            
+            <h5>nifra</h5>
+            <small class="d-block mb-3" style="color: white;">© 2017–2024</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small ">
+              <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+              <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+            </ul>
+            <ul class="social-icon d-flex list-unstyled justify-content-between">
+                <li><a href="https://www.instagram.com/nifra_1614/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://github.com/"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/noorunisha-afrin-m-a213242a8/"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+           
+          </div>
+          
+        </div>
+      </footer>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
