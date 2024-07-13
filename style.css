@@ -280,7 +280,7 @@ p {
 .banner_wrapper {
     width: 100%;
     height: auto;
-    min-height: 900px;
+    min-height: 700px;
     background-image: url(images/banner-hijabb.webp);
     background-repeat: no-repeat;
     background-position: center;
