@@ -16,6 +16,11 @@
     .header-scrolled {
         height: auto;
     }
+    .frontbox h4 {
+        width: 66%;
+        margin: 0 auto;
+        font-size: 24px;
+    }
 
     .header_wrapper .menu-navbar-nav {
         text-align: center;
@@ -49,7 +54,11 @@
         font-size: 40px;
         line-height: 48px;
     }
-
+    .frontbox h4 {
+        width: 66%;
+        margin: 0 auto;
+        font-size: 24px;
+    }
     h2 {
         font-size: 25px;
     }
