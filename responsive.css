@@ -98,5 +98,32 @@
         left: 3px;
         position: absolute;
     }
+    .emm{
+        flex-direction: column;
+    }
+    .portfolio_wrapper .card {
+        height: 100%;
+        width: 100%;
+        min-height: 350px;
+        overflow: hidden;
+        border: 1px solid var(--gray-color);
+        cursor: pointer;
+        /* box-shadow: 0 0 16px 4px rgba(255, 255, 255, 0.377); */
+        box-shadow: rgba(187, 186, 186, 0.35) 0px 5px 15px;
+    
+    }
+    .portfolio_wrapper .card {
+        height: 100%;
+        min-height: 400px;
+        overflow: hidden;
+        border: 1px solid var(--gray-color);
+        cursor: pointer;
+        /* box-shadow: 0 0 16px 4px rgba(255, 255, 255, 0.377); */
+        box-shadow: rgba(187, 186, 186, 0.35) 0px 5px 15px;
+    }
+    .cnn{
+        flex-direction: column-reverse;
+    }
+   
     
 }

@@ -165,6 +165,12 @@ h3 {
     color: var(--text-white);
     margin-bottom: 19px;
 }
+h4{
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--text-white);
+    margin-bottom: 17px;
+}
 
 h6 {
     font-size: 15px;
@@ -374,7 +380,7 @@ p {
     height: 100%;
     min-height: 350px;
     overflow: hidden;
-    border: 1px solid var(--gray-color);
+    border: 2px solid var(--primary-color);
     cursor: pointer;
     /* box-shadow: 0 0 16px 4px rgba(255, 255, 255, 0.377); */
     box-shadow: rgba(187, 186, 186, 0.35) 0px 5px 15px;
@@ -485,4 +491,8 @@ p {
 }
 .testimonial-position {
     color: #6c757d;
+}
+
+.emm{
+    margin-top: 2em;
 }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
+    <title>About-potfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -31,6 +31,8 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+
+
     <!-- start of nav section -->
     <header class="header_wrapper">
         <nav class="navbar navbar-expand-lg  fixed-top">
@@ -57,13 +59,13 @@
                             <a class="nav-link" href="service.html">Service</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item mt-3 mt-lg-0">
-                            <a class="main-btn" href="">Hire me</a>
+                            <a class="main-btn" href="#">Hire me</a>
                         </li>
                     </ul>
                 </div>
@@ -71,159 +73,63 @@
         </nav>
     </header>
     <!-- end of nav section -->
+ <!--Contact section  -->
+ <section id="contact" class="contact_wrapper">
 
-    <!-- service section -->
-    <section id="services" class="services-wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center mb-4">
-                    <span class="subtitle mt-5">
-                        what i can do for you
-                    </span>
-                    <h2>My awesome service</h2>
-                    <p>there are many variations of passages of lorem ipsun available,<br class="d-none
-                    d-md-block">
-                        but the majority have suffered alteration.</p>
+    <div class="container">
+        <div class="row justify-content-between align-items-center mt-5">
+            <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                <span class="subtitle">My complete project </span>
+                <h2>Hire me</h2>
+                <span class="subtitle">**Connect With Me:**</span>
+                <p>I am keen on connecting with professionals and peers who share my passion for technology and coding. Feel free to reach out through my email or connect with me on LinkedIn for collaboration, freelance opportunities, or just a stimulating conversation about technology.</p>
+
+                <div class="row call_details mb-4">
+                    <label class="col-sm-3 col-lg-4 text-white">Call us directly :</label>
+
+                    <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                        <a href="">+91 88707 70624</a>
+                    </div>
+
+                    <label for="" class="label col-sm-3 col-lg-4 text-white">Contact Email :</label>
+
+                    <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                        <a href="#">noorunishaafrin@gmail.com</a>
+                    </div>
                 </div>
+                <form action="">
+                    <div class="mb-4">
+                    <label for="exampleFormControlInput1 " class="form-label text-white">Name</label>
+                        <input type="text" class="form-control  " placeholder="Your Name..."
+                            autocomplete="off">
+                    </div>
+                    <div class="mb-4">
+                    <label for="exampleFormControlInput1 " class="form-label text-white">Number</label>
+                        <input type="text" class="form-control text-white" placeholder="Your Phone..." autocomplete="off">
+                    </div>
+                    <div class="mb-4">
+                    <label for="exampleFormControlInput1 " class="form-label text-white">E-mail</label>
+                        <input type="email" class="form-control" placeholder="Your Email..." autocomplete="off">
+                    </div>
+                    <div class="mb-4">
+                    <label for="exampleFormControlTextarea1" class="form-label text-white">Message</label>
+                        <textarea name="" id="" cols="40" rows="4" class="form-control" id="message"
+                            placeholder="Write a message..." autocomplete="off">
+
+
+                        </textarea>
+                    </div>
+                    <button type="submit" class="main-btn">Submit</button>
+                </form>
+               
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body text-md-start text-center">
-                            <img src="images/service-1.svg" alt="" class="img-fluid mb-4">
-                            <h3>Business Strategy</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. voluptatum.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body text-md-start text-center">
-                            <img src="images/service-2.svg" alt="" class="img-fluid mb-4">
-                            <h3>web development</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. voluptatum.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body text-md-start text-center">
-                            <img src="images/service-4.svg" alt="" class="img-fluid mb-4">
-                            <h3>Marketting & Reporting</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt saepe fugit voluptatum.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body text-md-start text-center">
-                            <img src="images/service-3.svg" alt="" class="img-fluid mb-4">
-                            <h3>Mobile app development</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt saepe fugit voluptatum.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body text-md-start text-center">
-                            <img src="images/service-3.svg" alt="" class="img-fluid mb-4">
-                            <h3>Mobile app development</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt saepe fugit voluptatum.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body text-md-start text-center">
-                            <img src="images/service-3.svg" alt="" class="img-fluid mb-4">
-                            <h3>Mobile app development</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt saepe fugit voluptatum.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- testimonial section -->
-    <div class="container my-5">
-        <div class="col-sm-12 text-center mb-4">
-            <span class="subtitle mt-5">
-                what our client say about us....
-            </span>
-            <h2>Testimonial</h2>
-            <p>there are many variations of passages of lorem ipsun available,
-                <br class="d-none
-            d-md-block">
-                but the majority have suffered alteration.
-            </p>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="testimonial">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="images/sundar piochai.jpg" class="rounded-circle img-fluid" alt="Client Photo">
-                        </div>
-                        <div class="col-md-8">
-                            <p class="testimonial-text">"Working with afrin was an amazing game changing movement for
-                                us"</p>
-                            <h5 class="testimonial-author">Sundar pichai</h5>
-                            <p class="testimonial-position">CEO of Google</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="testimonial">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="images/ratan tata.jpg" class="rounded-circle img-fluid" alt="Client Photo">
-                        </div>
-                        <div class="col-md-8">
-                            <p class="testimonial-text">"Working with nifra was m"</p>
-                            <h5 class="testimonial-author">Ratan Naval Tata
-                            </h5>
-                            <p class="testimonial-position">Former chairperson of the Tata Group</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="testimonial">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="images/team-2.jpg" class="rounded-circle img-fluid" alt="Client Photo">
-                        </div>
-                        <div class="col-md-8">
-                            <p class="testimonial-text">"I love how easy Bootstrap makes it to build responsive
-                                websites. It's a game-changer for developers!"</p>
-                            <h5 class="testimonial-author">Alice Johnson</h5>
-                            <p class="testimonial-position">Software Engineer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="testimonial">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="images/team-4.jpg" class="rounded-circle img-fluid" alt="Client Photo">
-                        </div>
-                        <div class="col-md-8">
-                            <p class="testimonial-text">"Bootstrap is awesome! It helped me create a stunning website
-                                without much hassle."</p>
-                            <h5 class="testimonial-author">Mark Johnson</h5>
-                            <p class="testimonial-position">UX Designer</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0" style="position: relative;">
+                <img src="images/headbanner.jpg" alt="" class="img-fluid" style=" border-radius: 50px; border: 5px solid var(--primary-color);">
+                <div  class="frontbox" > <h4><span>"</span>Connect with me for more information<span>"</span></h4>  </div>
             </div>
         </div>
     </div>
+</section>
 
     <!-- footer section -->
     <section class="footer  " style="background-color:rgb(2 2 2); border-top: 2px solid var(--primary-color);">
