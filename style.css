@@ -165,12 +165,12 @@ h3 {
     color: var(--text-white);
     margin-bottom: 19px;
 }
-h4{
+/* h4{
     font-size: 22px;
     font-weight: 400;
     color: var(--text-white);
     margin-bottom: 17px;
-}
+} */
 
 h6 {
     font-size: 15px;
